@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<!-- Estamos indicando que esto es un documento de tipo html -->
+<html lang="es">
+  <!-- con lang especificamos el lenguaje, "es" de espanol -->
+  <head>
+    <meta charset="utf-8" />
+    <!-- especifica la codificacion de nuestro lenguaje-->
+    <title>Luciano Lasala - Desarrollador Web</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!-- para vincular el css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
+    <!-- Owl Carousel-->
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- Para font awesome https://cdnjs.com/libraries/font-awesome/5.15.4 -->
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <!-- Esto es para responsive design -->
+  </head>
+  <body>
+    <header>
+      <div class="contenedor">
+        <div class="menu">
+          <p>Luciano Lasala</p>
+          <img class="menu-icon" src="./Icons/menu.png" />
+          <nav>
+            <ul class="lista">
+              <!-- ol es lista ordenada, ul es desordenada -->
+              <li id="sobre-mi-link">Sobre mi</li>
+              <li id="tecnologias-link">Tecnologías</li>
+              <li id="servicios-link">Servicios</li>
+              <li id="mis-trabajos-link">Mis trabajos</li>
+              <li id="trabajar-conmigo-link">Trabajar conmigo</li>
+              <li id="contacto-link">Contacto</li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="titular">
+          <h1>Luciano Lasala</h1>
+          <h2>Diseñador & Desarrollador Web</h2>
+          <a
+            class="button-link"
+            href="https://github.com/cololasala?tab=repositories"
+            target="_blank"
+          >
+            Ver mi repositorio
+          </a>
+          <!-- con target _black hace que se abra en una penstana nuevo-->
+        </div>
+      </div>
+    </header>
+
+    <!-- Seccion Sobre Mi-->
+    <section id="section-sobre-mi">
+      <h3>Sobre mi</h3>
+      <div class="contenedor-sobre-mi">
+        <img
+          src="./Images/yo.jpg"
+          alt="Luciano Lasala"
+          title="Luciano Lasala"
+          style="margin: auto; border-radius: 20px"
+        />
+        <div class="contenedor-descripcion">
+          <p>
+            Mi nombre es Luciano Lasala y soy Analisata Universitario de
+            Sistemas egresado de la FRLP. Actualmente trabajo como desarrollador
+            de software, especializadome en Front-End.
+          </p>
+          <p>
+            Cuento con más de 5 años de experiencia en el area de Sistemas.
+            Actualmente estoy trabajando con tecnologías como Angular,
+            TypeScript, Html, SCSS y Node.JS.
+          </p>
+          <p>
+            Además estoy en constante capacitación realizadando cursos en la
+            plataforma Udemy y aprendiendo de manera autodidacta :D
+          </p>
+          <a
+            class="button-link"
+            href="https://github.com/cololasala?tab=repositories"
+            target="_blank"
+          >
+            Ver mis trabajos
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-tecnologias">
+      <h3>Tecnologías</h3>
+      <p style="text-align: center">
+        Estas son algunas de las tecnologías de las que tengo conocimientos.
+      </p>
+      <div class="tecnologias">
+        <img
+          class="tech"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png"
+          class="tech"
+          alt="angular"
+        />
+        <img
+          class="tech"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png"
+          alt="html-5"
+        />
+        <img
+          class="tech"
+          src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png"
+          alt="css-3"
+        />
+
+        <img
+          class="tech"
+          src="https://cdn.freebiesupply.com/logos/thumbs/2x/nodejs-1-logo.png"
+          alt="node.js"
+        />
+        <img
+          class="tech"
+          src="https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png"
+          alt="typeScript"
+        />
+        <img
+          class="tech"
+          src="https://img.icons8.com/color/480/microsoft-sql-server.png"
+          alt="sql-server"
+        />
+
+        <img
+          class="tech"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/800px-React.svg.png"
+          alt="react"
+        />
+        <img
+          class="tech"
+          src="https://damiandeluca.com.ar/wp-content/uploads/2018/03/firebase.png"
+          alt="firebase"
+        />
+        <img
+          class="tech"
+          src="https://victorroblesweb.es/wp-content/uploads/2016/11/mongodb.png"
+          alt="mongodb"
+        />
+      </div>
+    </section>
+
+    <!-- Seccion tecnologías -->
+
+    <section id="section-servicios">
+      <h3>Servicios</h3>
+      <div class="contenedor-servicio">
+        <div class="servicio violeta">
+          <h4>Diseño Web</h4>
+          <p>
+            Ofrezco un enfoque vanguardista en el desarrollo web que fusiona la
+            destreza técnica con la visión artística. Mi objetivo es transformar
+            ideas en realidades digitales impactantes. Desde elegantes sitios
+            web corporativos que dejan una impresión duradera, hasta plataformas
+            interactivas que elevan la participación del usuario.
+          </p>
+          <img src="./Icons/monitor.png" />
+        </div>
+        <div class="servicio celeste">
+          <h4>Responsive Design</h4>
+          <p>
+            Ofrezco un enfoque especializado en el desarrollo web responsive que
+            garantiza que su presencia en línea se adapte sin esfuerzo a todos
+            los tamaños de pantalla. Mi enfoque meticuloso en la creación de
+            diseños que fluyen con armonía en cualquier dispositivo asegura que
+            su contenido brille, sin importar si se trata de una computadora de
+            escritorio, una tablet o un teléfono móvil.
+          </p>
+          <img src="./Icons/mobile.png" />
+        </div>
+        <div class="servicio violeta">
+          <h4>SEO</h4>
+          <p>
+            Mi enfoque en el desarrollo web SEO se traduce en una presencia en
+            línea que no solo es estéticamente atractiva, sino que también se
+            posiciona de manera destacada en los motores de búsqueda. A través
+            de una combinación de estrategias técnicas y de contenido, optimizo
+            su sitio web para alcanzar los primeros puestos en los resultados de
+            búsqueda relevantes.
+          </p>
+          <img src="./Icons/seo.png" />
+        </div>
+        <div class="servicio celeste">
+          <h4>AutoAdministrable</h4>
+          <p>
+            Mi enfoque en el desarrollo web autoadministrable ofrece a los
+            clientes la libertad y el control para gestionar su propio contenido
+            en línea. A través de plataformas intuitivas y herramientas
+            personalizadas, diseño sitios web que le permiten actualizar y
+            modificar fácilmente textos, imágenes y otros elementos sin requerir
+            conocimientos técnicos profundos.
+          </p>
+          <img src="./Icons/wordpress.png" />
+        </div>
+        <div class="servicio violeta">
+          <h4>Mantenimiento</h4>
+          <p>
+            Ofrezco un servicio integral de mantenimiento web diseñado para
+            garantizar que su presencia en línea funcione de manera impecable y
+            sin interrupciones. Desde actualizaciones técnicas y de seguridad
+            hasta la supervisión constante del rendimiento del sitio, me aseguro
+            de que su sitio web esté siempre en su mejor forma.
+          </p>
+          <img src="./Icons/mante.png" />
+        </div>
+        <div class="servicio celeste">
+          <h4>Marketing Digital</h4>
+          <p>
+            Mi enfoque en el desarrollo web con enfoque en marketing ofrece una
+            sinergia excepcional entre la creatividad digital y las estrategias
+            de promoción efectivas. Creo sitios web que no solo son visualmente
+            cautivadores, sino que también están diseñados para atraer y retener
+            a su audiencia objetivo.
+          </p>
+          <img src="./Icons/marketing.png" />
+        </div>
+      </div>
+    </section>
+
+    <section id="section-mis-trabajos">
+      <h3>Mis trabajos</h3>
+      <div class="contenedor">
+        <div class="owl-carousel">
+          <div>
+            <img
+              src="./Images/app-articulos.png"
+              class="own-carousel-imagen"
+              title="App manejo de productos limpieza"
+            />
+          </div>
+          <div>
+            <a href="https://cololasala.github.io/Memory-Game/" target="_blank"
+              ><img
+                class="own-carousel-imagen"
+                src="https://imagenes.elpais.com/resizer/yLprOi4D4GC1xyz2vOzwOOFq-YQ=/1960x1470/cloudfront-eu-central-1.images.arcpublishing.com/prisa/SMAGZKMKUVK5UPZUPANHV4TYBA.jpg"
+                alt="pokemons"
+                title="Juego de Memory-Game"
+              />
+            </a>
+          </div>
+          <div>
+            <img
+              src="./Images/app-recordatorios.png"
+              class="own-carousel-imagen"
+              title="App manejo de recordatorios"
+            />
+          </div>
+          <div>
+            <a href="https://cololasala.github.io/Dados-Game/" target="_blank"
+              ><img
+                class="own-carousel-imagen"
+                src="https://st.depositphotos.com/1765561/1533/i/600/depositphotos_15339013-stock-photo-shiny-red-dice.jpg"
+                alt="dados"
+                title="Juego de Lanzar dado"
+              />
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://cololasala.github.io/Tic-Tac-Toe---AI/"
+              target="_blank"
+              alt="tic-tac-tpe"
+              class="own-carousel-imagen"
+            >
+              <img
+                class="own-carousel-imagen"
+                src="https://cdn-icons-png.flaticon.com/512/2911/2911080.png"
+                title="Juego ta-te-ti"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-trabajar-conmigo">
+      <h3>¿Por que trabajar conmigo?</h3>
+      <div class="contenedor-trabajar-conmigo">
+        <div class="trabajar-conmigo">
+          <img src="./Icons/mobile-icon.png" />
+          <h4>Responsabilidad</h4>
+          <p>
+            Al elegirme, elige un colaborador que no solo se esfuerza por
+            alcanzar los objetivos del proyecto, sino que también lo hace de
+            manera responsable y con integridad.
+          </p>
+        </div>
+        <div class="trabajar-conmigo">
+          <img src="./Icons/velocidad.png" />
+          <h4>Velocidad</h4>
+          <p>
+            Garantizo entregar el proyecto en tiempos acordados, dentro de los
+            límites del contrato establecido.
+          </p>
+        </div>
+        <div class="trabajar-conmigo">
+          <img src="./Icons/mantenimiento.png" />
+          <h4>Mantenimiento</h4>
+          <p>Ofrezco mantenimiento una vez el proyecto este concluido.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-footer">
+      <h3>¿Que esperas para tener tu propia pagina web?</h3>
+      <div class="contacto">
+        <a
+          href="https://www.linkedin.com/in/luciano-lasala-504704177/"
+          target="_blank"
+        >
+          <img
+            class="contacto-imagen"
+            src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg"
+            class="red-social"
+            alt="contacto-linkedin"
+          />
+        </a>
+        <hr style="margin: 0px 35px 0px 35px" />
+        <a href="mailto: luciano.lasala12@hotmail.com" target="_blank">
+          <img
+            class="contacto-imagen"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg.png"
+            class="red-social"
+            alt="contacto-email"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Seccion whatsapp-->
+    <section id="whatsapp">
+      <a href="https://wa.me/5492215993097" target="_blank">
+        <img src="./Icons/whatsapp.png" style="width: 80px; height: 80px" />
+      </a>
+    </section>
+
+    <script src="owlcarousel/jquery.min.js"></script>
+    <!-- en las etiquetas script va el codigo javascript o jquery -->
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+
+      $(".menu-icon").click(function () {
+        $("header nav").slideToggle();
+      });
+
+      //Scroll manejo
+      $("#sobre-mi-link").click(function () {
+        $("html,body").animate(
+          {
+            scrollTop: $("#section-sobre-mi").offset().top,
+          },
+          "slow"
+        );
+      });
+      $("#servicios-link").click(function () {
+        $("html,body").animate(
+          {
+            scrollTop: $("#section-servicios").offset().top,
+          },
+          "slow"
+        );
+      });
+      $("#mis-trabajos-link").click(function () {
+        $("html,body").animate(
+          {
+            scrollTop: $("#section-mis-trabajos").offset().top,
+          },
+          "slow"
+        );
+      });
+      $("#trabajar-conmigo-link").click(function () {
+        $("html,body").animate(
+          {
+            scrollTop: $("#section-trabajar-conmigo").offset().top,
+          },
+          "slow"
+        );
+      });
+      $("#tecnologias-link").click(function () {
+        $("html,body").animate(
+          {
+            scrollTop: $("#section-tecnologias").offset().top,
+          },
+          "slow"
+        );
+      });
+      $("#contacto-link").click(function () {
+        $("html,body").animate(
+          {
+            scrollTop: $("#section-footer").offset().top,
+          },
+          "slow"
+        );
+      });
+    </script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

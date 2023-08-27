@@ -1,0 +1,348 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins";
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  list-style: none; /* saco los puntitos de la lista*/
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+ul li:hover {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.menu {
+  display: flex; /* hace los elementos contenidos tipo flexibles, pongo los elementos uno al lado de otro*/
+  justify-content: space-between; /* pone los elementos con espacios */
+  align-items: center; /* centro verticalmente*/
+}
+
+ul {
+  display: flex;
+}
+
+.button-link {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  background-color: #5cb8ff;
+  padding: 20px 30px 20px 30px; /* top, right, bottom, left (igual a las manecillas del reloj)*/
+}
+
+.titular {
+  text-align: center;
+  margin-top: 200px;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+header {
+  background: url("./Images/fondo.jpg");
+  height: 100vh; /* viewport height, permite que ocupe el 100% de la ventana */
+  background-size: cover; /* estos background permiten ajustar bien la imagen de fondo*/
+  background-position: center;
+}
+
+.contenedor {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal; /* saco la negrita al h3*/
+  margin: 35px 0px 35px 0px;
+}
+
+.contenedor-sobre-mi {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedor-descripcion {
+  width: 50%;
+}
+
+.contenedor-descripcion p {
+  /* aplico a los p que estan dentro de la clase contenedor-descripcion */
+  font-size: 19px;
+}
+
+.contenedor-descripcion a {
+  margin-top: 10px;
+  display: inline-block; /* convierto el elemento de linea "a" en bloque, para poder usar el margin-top*/
+}
+
+.servicio {
+  width: 25%;
+  padding: 50px 38px 50px 38px; /* este padding influye en el width (hay que prestar atencion a eso...)*/
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.contenedor-servicio {
+  display: flex;
+  flex-wrap: wrap; /* me permite poner los divs en linea, depende de el tamano de los elementos (en este caso a la class servicio la achique con el width)*/
+  justify-content: space-around;
+  color: white;
+}
+
+.servicio img {
+  float: right;
+}
+
+.servicio h4 {
+  font-size: 30px;
+  margin: 0px;
+}
+
+.servicio p {
+  font-size: 18px;
+  height: 250px;
+}
+
+.violeta {
+  background-color: #5055df;
+}
+
+.celeste {
+  background-color: #40a8f9;
+}
+
+.owl-nav {
+  text-align: center;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  /* cambio el tam y el color de las flechas del carousel */
+  font-size: 80px !important;
+  color: #40a8f9 !important;
+}
+
+.own-carousel-imagen {
+	height: 250px;
+	width: 200px;
+  border-radius: 12px;
+}
+
+.contenedor-trabajar-conmigo {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.trabajar-conmigo {
+  text-align: center;
+  width: 24%;
+}
+
+.trabajar-conmigo h4 {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.trabajar-conmigo p {
+  font-size: 16px;
+  margin: 0px;
+  line-height: 28px;
+}
+
+.contenedor-blog {
+  display: flex;
+  justify-content: space-around;
+}
+
+.blog {
+  width: 30%;
+  box-shadow: 11px 11px 14px #ccc; /* el box shadow se puedo probar en la consola de chrome */
+  padding-bottom: 50px;
+}
+
+.blog img {
+  width: 100%;
+  height: 300px;
+}
+
+.blog h4 {
+  font-size: 25px;
+  margin: 0px;
+  padding: 15px;
+}
+
+.blog p {
+  color: #5a6169;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0px;
+  padding: 0px 10px 15px 10px;
+}
+
+.blog a {
+  display: inline-block;
+}
+
+#section-footer {
+  background: linear-gradient(rgb(84, 93, 220), rgb(96, 171, 245));
+  text-align: center;
+  padding: 50px 0px 50px 0px;
+}
+
+#section-footer h3 {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.contacto {
+  display: flex;
+  justify-content: center;
+}
+
+.contacto-imagen {
+  height: 65px;
+  width: 65px;
+}
+
+#whatsapp a {
+  background: none;
+  position: fixed;
+  top: 85%; /* este top y right se lo damos a los elementos que tienen el position fixed*/
+  right: 1%;
+}
+
+.menu-icon {
+  display: none; /* ocultamos el icono cuando estamos en vision escritorio*/
+}
+
+#section-tecnologias {
+  background-color: #f9fafc;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+
+.tecnologias {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, auto);
+  gap: 60px;
+}
+
+.tech {
+  height: 125px;
+  width: 125px;
+}
+
+/* ESTILOS PARA RESPONSIVE DESIGN */
+@media (max-width: 800px) {
+  /* Estos estilos se van a aplicar cuando el maximo de ancho sea menor a 800px */
+
+  nav {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    background-color: #5cb8ff;
+    width: 100%;
+    display: none; /* hasta que no toque el boton de menu, el el menu va a estar oculto*/
+  }
+
+  nav .lista {
+    flex-direction: column; /* hago que los elementos esten uno debajo de otro*/
+  }
+
+  .menu-icon {
+    display: block;
+    width: 25px;
+  }
+
+  .titular {
+    margin-top: 54px;
+  }
+
+  h1 {
+    font-size: 49px;
+  }
+
+  h2 {
+    font-size: 19px;
+  }
+
+  .contenedor-sobre-mi {
+    flex-direction: column;
+  }
+
+  .contenedor-descripcion {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contenedor-servicio {
+    flex-direction: column;
+  }
+
+  .servicio {
+    width: 72%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .servicio p {
+    height: auto;
+  }
+
+  .contenedor-trabajar-conmigo {
+    flex-direction: column;
+  }
+
+  .trabajar-conmigo {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .contenedor-blog {
+    flex-direction: column;
+  }
+
+  .blog {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .tech {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+  header {
+    height: 53vh;
+  }
+
+  .servicio {
+    width: 55%;
+  }
+}
