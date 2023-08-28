@@ -231,6 +231,7 @@ h3 {
   top: 85%; /* este top y right se lo damos a los elementos que tienen el position fixed*/
   right: 1%;
   border-radius: 50%;
+  z-index: 999;
 }
 
 .wsp-image {
