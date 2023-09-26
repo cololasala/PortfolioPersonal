@@ -35,7 +35,7 @@ ul {
   text-decoration: none;
   background-color: #5cb8ff;
   padding: 20px 30px 20px 30px; /* top, right, bottom, left (igual a las manecillas del reloj)*/
-  transition: transform 0.3s ease; /* se aplica el transform de una manera suave, transition de 0.3s */
+  transition: transform 0.3s ease; /* en transition se especifica a la propiedad que se aplicará (en este caso transform) y se usa 0.3s para que sea "una transicion suave" */
 }
 
 .button-link:hover {
