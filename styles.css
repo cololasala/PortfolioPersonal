@@ -35,6 +35,11 @@ ul {
   text-decoration: none;
   background-color: #5cb8ff;
   padding: 20px 30px 20px 30px; /* top, right, bottom, left (igual a las manecillas del reloj)*/
+  transition: transform 0.3s ease; /* se aplica el transform de una manera suave, transition de 0.3s */
+}
+
+.button-link:hover {
+  transform: scale(1.1); /* aumenta un 10% el tamanio */
 }
 
 .titular {
@@ -223,6 +228,11 @@ h3 {
 .contacto-imagen {
   height: 65px;
   width: 65px;
+  transition: transform 0.3s ease;
+}
+
+.contacto-imagen:hover {
+  transform: scale(1.1);
 }
 
 #whatsapp a {
@@ -237,6 +247,10 @@ h3 {
 .wsp-image {
   width: 80px;
   height: 80px;
+}
+
+#whatsapp a {
+  transition: box-shadow 0.3s ease;
 }
 
 #whatsapp a:hover {
@@ -258,12 +272,12 @@ h3 {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(3, auto);
-  gap: 60px;
+  gap: 100px;
 }
 
 .tech {
-  height: 125px;
-  width: 125px;
+  height: 130px;
+  width: 130px;
 }
 
 /* ESTILOS PARA RESPONSIVE DESIGN */
@@ -346,6 +360,10 @@ h3 {
   .tech {
     height: 70px;
     width: 70px;
+  }
+
+  .tecnologias {
+    gap: 60px;
   }
 }
 
