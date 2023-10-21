@@ -290,7 +290,7 @@ h3 {
     left: 0px;
     background-color: #5cb8ff;
     width: 100%;
-    display: none; /* hasta que no toque el boton de menu, el el menu va a estar oculto*/
+    display: none; /* hasta que no toque el boton de menu, el menu va a estar oculto*/
   }
 
   nav .lista {
@@ -374,5 +374,11 @@ h3 {
 
   .servicio {
     width: 55%;
+  }
+}
+
+@media (min-width: 800px) {
+  nav {
+    display: block !important; /* Arregla problema de abrir y luego cerrar el menu en mobile y que se siga viendo en desktop */
   }
 }
