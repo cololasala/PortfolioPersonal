@@ -84,6 +84,7 @@ h3 {
 
 .contenedor-descripcion {
   width: 50%;
+  margin-right: 15px;
 }
 
 .contenedor-descripcion p {
